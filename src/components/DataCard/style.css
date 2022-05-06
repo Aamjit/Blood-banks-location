@@ -1,0 +1,23 @@
+.data-frame {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	align-items: center;
+}
+
+.link-text {
+	margin-block: 1rem;
+}
+.link-text a {
+	margin-bottom: 1rem;
+	text-decoration: none;
+	color: rgb(38, 165, 255);
+}
+
+.address-style {
+	display: flex;
+	flex: row;
+	justify-content: center;
+	align-items: center;
+	font-size: calc(10px + 4%);
+}
